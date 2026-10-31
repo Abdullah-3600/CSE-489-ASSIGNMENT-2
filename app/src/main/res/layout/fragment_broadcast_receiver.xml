@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvSelectTypeHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Select a broadcast type"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerBroadcastType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minWidth="160dp"
+        android:spinnerMode="dropdown" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnProceed"
+        style="@style/RoundedPillButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingStart="32dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="32dp"
+        android:paddingBottom="12dp"
+        android:text="Proceed"
+        android:textColor="#333333"
+        app:backgroundTint="#F8F8F8" />
+
+</LinearLayout>
